@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    background-color: #24272E;
+    color: white;
+    display: flex;
+    height: 100vh;
+    margin: 0px 2rem;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.container-logo>img {
+    width: 100%;
+    max-width: 500px;
+    margin: 0px 0px 2rem 0px;
+}
+
+.text-body {
+    font-size: 1.1rem;
+}
+
+button {
+    margin: 1rem 0rem;
+    padding: 0.5rem 1rem;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    transition: all 300ms;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
